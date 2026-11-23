@@ -1,5 +1,5 @@
 import React from 'react'
-import Index from './Components'
+import Index from './components'
 
 const App = () => {
   return (
