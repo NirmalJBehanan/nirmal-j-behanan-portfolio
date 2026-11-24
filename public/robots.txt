@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://nirmal-j-behanan.vercel.app/sitemap.xml
