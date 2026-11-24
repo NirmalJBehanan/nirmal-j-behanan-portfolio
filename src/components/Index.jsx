@@ -124,47 +124,15 @@ const Index = () => {
           </div>
 
           {/* TERMINAL */}
-          <div className="terminal">
-
-            <div className="terminal-header">
-
-              <div>
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-
-              <p>nirmal@developer:~</p>
-
+          {/* PROFILE IMAGE */}
+          <div className="hero-image">
+            <div className="profile-image-wrapper">
+              <img
+                src="/nirmal2.jpg"
+                alt="Nirmal J Behanan"
+                className="profile-image"
+              />
             </div>
-
-            <div className="terminal-content">
-
-              <p className="terminal-command">
-                ❯ cat profile.json
-              </p>
-
-              <pre>
-                {`{
-  "name": "Nirmal J Behanan",
-  "role": "MERN Stack Developer",
-  "frontend": "React.js",
-  "backend": "Node.js, Express.js",
-  "database": "MongoDB",
-  "status": "Learning & Building"
-}`}
-              </pre>
-
-              <p className="terminal-command">
-                ❯ git status
-              </p>
-
-              <p className="terminal-status">
-                Working on new ideas...
-              </p>
-
-            </div>
-
           </div>
 
         </section>
@@ -370,13 +338,40 @@ const Index = () => {
                 <span>MongoDB</span>
                 <span>Razorpay</span>
               </div>
+              <div className="project-links">
+                <a href="https://appoinmentsystem.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  <i className="fa-solid fa-globe"></i>
+                  Live Website
+                </a>
 
-              <a href="https://appoinmentsystem.netlify.app/" className="project-link">
-                <i className="fa-brands fa-github"></i>
-                Live Website
-              </a>
+                <a
+                  href="https://github.com/NirmalJBehanan/doctor_fe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  <i className="fa-brands fa-github"></i>
+                  Frontend Source Code
+                </a>
+
+                <a
+                  href="https://github.com/NirmalJBehanan/doctor_be"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  <i className="fa-brands fa-github"></i>
+                  Backend Source Code
+                </a>
+              </div>
 
             </div>
+
+
 
             <div className="project-card">
 
@@ -398,10 +393,37 @@ const Index = () => {
                 <span>MongoDB</span>
               </div>
 
-              <a href="https://generate-short-urls.netlify.app/" className="project-link">
-                <i className="fa-brands fa-github"></i>
-                Live Website
-              </a>
+              <div className="project-links">
+                <a href="https://generate-short-urls.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  <i className="fa-solid fa-globe"></i>
+                  Live Website
+                </a>
+
+                <a
+                  href="https://github.com/NirmalJBehanan/url-shortner-fe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  <i className="fa-brands fa-github"></i>
+                  Frontend Source Code
+                </a>
+
+                <a
+                  href="https://github.com/NirmalJBehanan/url-shortner-be"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  <i className="fa-brands fa-github"></i>
+                  Backend Source Code
+                </a>
+              </div>
+
 
             </div>
 
@@ -426,10 +448,101 @@ const Index = () => {
                 <span>Express.js</span>
                 <span>MongoDB</span>
               </div>
+            </div>
 
 
+            <div className="project-card">
+
+              <p className="project-type">Frontend Application</p>
+
+              <h3>WatchWorld - Redux E-commerce</h3>
+
+              <p>
+                A responsive e-commerce website where users can
+                browse products, add or remove items from their
+                shopping cart, update product quantities, and
+                automatically calculate the total cart value.
+                Built using Redux Toolkit for global state management.
+              </p>
+
+              <div className="tech-stack">
+                <span>React.js</span>
+                <span>Redux Toolkit</span>
+                <span>React Router</span>
+                <span>JavaScript</span>
+                <span>CSS3</span>
+              </div>
+
+              <div className="project-links">
+
+                <a
+                  href="https://watchworld-redux.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  <i className="fa-solid fa-globe"></i>
+                  Live Demo
+                </a>
+
+                <a
+                  href="https://github.com/NirmalJBehanan/ecom-redux"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  <i className="fa-brands fa-github"></i>
+                  Source Code
+                </a>
+
+              </div>
 
             </div>
+
+
+            <div className="project-card">
+
+              <p className="project-type">Frontend Application</p>
+
+              <h3>Standard Calculator</h3>
+
+              <p>
+                A responsive calculator application built using HTML,
+                CSS, and JavaScript. It supports basic arithmetic
+                operations with interactive buttons and keyboard input.
+              </p>
+
+              <div className="tech-stack">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+
+              <div className="project-links">
+                <a
+                  href="https://calculator-omega-blond-54.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  <i className="fa-solid fa-globe"></i>
+                  Live Demo
+                </a>
+
+                <a
+                  href="https://github.com/NirmalJBehanan/task12.2"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  <i className="fa-solid fa-globe"></i>
+
+                  Source Code
+                </a>
+              </div>
+
+            </div>
+
 
           </div>
 
