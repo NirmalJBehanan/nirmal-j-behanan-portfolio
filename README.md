@@ -1,57 +1,76 @@
-# Nirmal J Behanan – Personal Portfolio
+# Nirmal J Behanan | MERN Stack Developer Portfolio 🚀
 
-Welcome to my personal portfolio! This website showcases my skills, projects, educational background, and journey as a **MERN Stack Developer**.
+Welcome to my personal developer portfolio!
 
-I created this portfolio to introduce myself, highlight my technical abilities, and showcase the projects I have developed.
+I'm **Nirmal J Behanan**, a MERN Stack Developer and MCA graduate from Kerala, India, passionate about building modern, responsive, and user-friendly web applications.
 
-## 🚀 Live Demo
+This portfolio showcases my technical skills, full-stack development projects, frontend applications, educational background, and journey as a web developer.
 
-[View My Portfolio](#)
+## 🌐 Live Portfolio
 
-## 👨‍💻 About Me
+**Website:** [https://nirmal-j-behanan.vercel.app/](https://nirmal-j-behanan.vercel.app/)
 
-Hi, I'm **Nirmal J Behanan**, a developer interested in building modern, responsive, and user-friendly web applications.
+**GitHub Repository:** [https://github.com/NirmalJBehanan/nirmal-j-behanan-portfolio](https://github.com/NirmalJBehanan/nirmal-j-behanan-portfolio)
 
-I work with the MERN stack and enjoy learning new technologies, solving problems, and turning ideas into practical applications.
+## ✨ Features
+
+- Responsive portfolio design for desktop, tablet, and mobile devices
+- Dark mode and light mode toggle
+- Mobile-friendly navigation with hamburger menu
+- About Me section
+- Technical skills showcase
+- Full-stack and frontend project showcase
+- Educational background
+- Contact and social media links
+- Clean and user-friendly interface
 
 ## 🛠️ Technologies Used
 
 - **Frontend:** React.js, JavaScript, HTML5, CSS3
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Tools:** Git, GitHub, VS Code
+- **Styling:** CSS3, Responsive Design
 - **Icons:** Font Awesome
+- **Development Tools:** VS Code, Git, GitHub
+- **Deployment:** Vercel
 
-## ✨ Features
-
-- Responsive design for desktop, tablet, and mobile devices
-- Dark mode and light mode toggle
-- Mobile-friendly navigation menu
-- About Me section
-- Technical skills showcase
-- Project portfolio
-- Educational background
-- Contact and social media links
-
-## 📂 Featured Projects
+## 💼 Featured Projects
 
 ### 1. Doctor Appointment Booking System
 
-A full-stack web application that allows patients to find doctors, view available appointment slots, and book appointments.
+A full-stack web application that allows patients to find doctors, view available appointment slots, book appointments, and manage their appointments.
 
 **Technologies:** React.js, Node.js, Express.js, MongoDB
 
-### 2. School Accounts Management System
+### 2. School Accounts Management System (SAMS)
 
-A web-based application developed to manage school-related accounts and administrative activities.
+A web-based school management application developed to manage school-related accounts and administrative activities.
 
 **Technologies:** React.js, JavaScript, Bootstrap, Node.js, Express.js, MongoDB
 
 ### 3. Unique URL Shortener
 
-A web application that generates unique short URLs from long URLs. Users can share the generated links, which redirect to their original destinations.
+A full-stack URL shortening application that generates unique short URLs from long URLs. Users can share the generated links and redirect to their original destinations.
 
 **Technologies:** React.js, Node.js, Express.js, MongoDB
+
+### 4. WatchWorld – Redux E-commerce
+
+A frontend e-commerce application that allows users to browse products and manage shopping cart items using Redux Toolkit for global state management.
+
+**Technologies:** React.js, Redux Toolkit, React Router, JavaScript, CSS3
+
+### 5. Calculator Application
+
+A responsive calculator application designed to perform mathematical calculations through a simple and user-friendly interface.
+
+**Technologies:** JavaScript, HTML5, CSS3
+
+## 💻 Technical Skills
+
+- **Frontend Development:** React.js, JavaScript, HTML5, CSS3, Bootstrap
+- **Backend Development:** Node.js, Express.js
+- **Database:** MongoDB
+- **State Management:** Redux Toolkit
+- **Tools:** Git, GitHub, VS Code
 
 ## 🎓 Education
 
@@ -63,51 +82,74 @@ Amal Jyothi College of Engineering – Autonomous
 College of Applied Science (IHRD), Adoor  
 2020 – 2023
 
-## ⚙️ Run Locally
+## ⚙️ Installation
 
-Follow these steps to run the portfolio on your local machine.
+Follow these steps to run the portfolio locally.
 
-**1. Clone the repository**
-
-```bash
-git clone YOUR_REPOSITORY_URL
-```
-
-**2. Navigate to the project folder**
+### 1. Clone the repository
 
 ```bash
-cd your-portfolio
+git clone https://github.com/NirmalJBehanan/nirmal-j-behanan-portfolio.git
 ```
 
-**3. Install dependencies**
+### 2. Navigate to the project folder
+
+```bash
+cd nirmal-j-behanan-portfolio
+```
+
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-**4. Start the development server**
+### 4. Start the development server
 
 ```bash
 npm run dev
 ```
 
-**5. Open in your browser**
+### 5. Open in your browser
 
 ```text
 http://localhost:5173
 ```
 
-## 📬 Contact
+## 📦 Production Build
 
-Feel free to connect with me for opportunities, collaborations, or discussions.
+To create an optimized production build:
 
-- **Email:** YOUR_EMAIL
-- **GitHub:** YOUR_GITHUB_PROFILE
-- **LinkedIn:** YOUR_LINKEDIN_PROFILE
+```bash
+npm run build
+```
+
+The production-ready files will be generated inside the `dist` directory.
+
+## 🚀 Deployment
+
+This portfolio is deployed using Vercel.
+
+**Live Website:** [Nirmal J Behanan – Developer Portfolio](https://nirmal-j-behanan.vercel.app/)
+
+## 🔍 SEO Keywords
+
+Nirmal J Behanan, Nirmal J Behanan Portfolio, MERN Stack Developer, Full Stack Developer, React.js Developer, Node.js Developer, JavaScript Developer, MongoDB Developer, Web Developer in Kerala, MCA Graduate, Frontend Developer, Backend Developer, Personal Developer Portfolio.
+
+## 👨‍💻 Author
+
+**Nirmal J Behanan**  
+MERN Stack Developer | Full Stack Developer
+
+## 📬 Connect With Me
+
+- **Portfolio:** [nirmal-j-behanan.vercel.app](https://nirmal-j-behanan.vercel.app/)
+- **GitHub:** [github.com/NirmalJBehanan](https://github.com/NirmalJBehanan)
+- **LinkedIn:** [linkedin.com/in/nirmal-j-behanan](https://www.linkedin.com/in/nirmal-j-behanan/)
 
 ## 📄 License
 
-This project is created for personal portfolio purposes. Feel free to explore the code and get inspiration from it.
+This project is open source and available under the MIT License.
 
 ---
 
